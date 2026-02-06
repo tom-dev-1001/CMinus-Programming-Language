@@ -10,6 +10,14 @@ The goal of this project is not to create a production-ready language, but to:
 
 This project demonstrates the complete workflow of language creation, from source code parsing to executable generation.
 
+## Technical Highlights
+
+- Written in Zig with full manual memory management
+- Recursive descent parser
+- Complete AST + type resolution system
+- Manual LLVM IR code generation (no LLVM API)
+- Multi-target backend architecture (Go, C, LLVM IR)
+
 **Key Features**
 Language Design
 
