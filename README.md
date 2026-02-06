@@ -29,11 +29,11 @@ fn void main() {
 }
 ```
 
-Compiler Pipeline
+**Compiler Pipeline**
 
 The project implements a complete compiler frontend and multiple backends:
 
-Tokenizer / Lexer
+*Tokenizer / Lexer*
 
 Parses input code:  
 ```C
