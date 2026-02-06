@@ -39,13 +39,13 @@ Parses input code:
 ```C
 fn void main() {
     int value = 1;
-
-    if (value > 1) {
-
-    } else if (value < 1) {
-
-    } else {
         
+    if (value > 1) {
+        println("Value is higher than one")
+    } else if (value < 1) {
+        println("Value is less than one")
+    } else {
+        println("Value is one")
     }
 }
 ```
