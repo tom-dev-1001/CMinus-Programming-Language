@@ -19,7 +19,7 @@ This project demonstrates the complete workflow of language creation, from sourc
 - Manual LLVM IR code generation (no LLVM API)
 - Multi-target backend architecture (Go, C, LLVM IR)
 
-**Key Features**
+**Key Features**  
 Language Design
 
 - C-like syntax with modernized constructs
