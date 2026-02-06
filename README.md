@@ -38,7 +38,15 @@ Tokenizer / Lexer
 Parses input code:  
 ```C
 fn void main() {
-    
+    int value = 1;
+
+    if (value > 1) {
+
+    } else if (value < 1) {
+
+    } else {
+        
+    }
 }
 ```
 <img width="730" height="438" alt="image" src="https://github.com/user-attachments/assets/45f64959-539f-4028-a22e-b80d827eb46b" />
