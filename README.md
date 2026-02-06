@@ -1,4 +1,4 @@
-C- Language Project — Compiler & Language Design Experiment
+***C- Language Project — Compiler & Language Design Experiment***
 
 C- is an experimental programming language and compiler project built to explore how modern programming languages are designed and implemented from scratch.
 The goal of this project is not to create a production-ready language, but to:
@@ -10,7 +10,7 @@ The goal of this project is not to create a production-ready language, but to:
 
 This project demonstrates the complete workflow of language creation, from source code parsing to executable generation.
 
-Key Features
+**Key Features**
 Language Design
 
 - C-like syntax with modernized constructs
@@ -33,7 +33,7 @@ fn void main() {
 
 The project implements a complete compiler frontend and multiple backends:
 
-- Tokenizer / Lexer
+**Tokenizer / Lexer**
 
 Parses input code:  
 ```C
@@ -52,19 +52,19 @@ fn void main() {
 into Tokens:  
 <img width="773" height="713" alt="image" src="https://github.com/user-attachments/assets/7b0dd25c-ca3d-475b-95c3-84d5e36607ea" />
 
-- Abstract Syntax Tree (AST) generation
+**Abstract Syntax Tree (AST) generation**
   
 Formats tokens into ASTs:  
 <img width="917" height="524" alt="image" src="https://github.com/user-attachments/assets/6e0d0f15-9cd2-4f67-8518-0fff1ebdf24c" />
 
-- Type resolution & type checking
+**Type resolution & type checking**
 
 Creates all unique variable types  
 Tracks declared symbols and scope  
 AST type tagging  
 <img width="666" height="614" alt="image" src="https://github.com/user-attachments/assets/000883a5-1652-4bc8-9990-08337beae331" />  
 
-- Code generation:
+**Code generation:**
 
 Multi-target code generation
 LLVM IR Generation:  
