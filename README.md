@@ -59,20 +59,21 @@ Formats tokens into ASTs:
 
 - Type resolution & type checking
 
-Creates all unique variable types
-Tracks declared symbols and scope
-AST type tagging
+Creates all unique variable types  
+Tracks declared symbols and scope  
+AST type tagging  
+<img width="666" height="614" alt="image" src="https://github.com/user-attachments/assets/000883a5-1652-4bc8-9990-08337beae331" />  
 
 - Code generation:
 
 Multi-target code generation
-
-
-
-
-
-
-
-<img width="666" height="614" alt="image" src="https://github.com/user-attachments/assets/000883a5-1652-4bc8-9990-08337beae331" />
-
+LLVM IR Generation:  
 <img width="1529" height="704" alt="image" src="https://github.com/user-attachments/assets/a1a700f4-e0ae-475f-8f55-a0ffc6598753" />
+
+
+
+
+
+
+
+
