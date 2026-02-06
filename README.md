@@ -11,6 +11,8 @@ The goal of this project is not to create a production-ready language, but to:
 
 This project demonstrates the complete workflow of language creation, from source code parsing to executable generation.
 
+This project intentionally avoids compiler frameworks and code generation APIs in order to deeply understand the underlying mechanisms.
+
 ## Technical Highlights
 
 - Written in Zig with full manual memory management
