@@ -114,6 +114,14 @@ Target Status:
 - Go - ✅ Full pipeline — builds and runs executable
 - LLVM IR - Work in progress
 
+**Detailed error messages:**
+
+When missing a semicolon:
+<img width="742" height="321" alt="image" src="https://github.com/user-attachments/assets/b23500d4-0065-4c9e-9f95-c43927c1bfe1" />
+<img width="742" height="321" alt="image" src="https://github.com/user-attachments/assets/b23500d4-0065-4c9e-9f95-c43927c1bfe1" />
+
+
+
 **Project Goals**
 
 - Build a real compiler pipeline from scratch
