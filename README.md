@@ -70,10 +70,37 @@ Multi-target code generation
 LLVM IR Generation:  
 <img width="1529" height="704" alt="image" src="https://github.com/user-attachments/assets/a1a700f4-e0ae-475f-8f55-a0ffc6598753" />
 
+**Code Generation Targets**
 
+Currently supported / in progress:
 
+Target Status:
+- C - Work in progress
+- Go - ✅ Full pipeline — builds and runs executable
+- LLVM IR - Work in progress
 
+**Project Goals**
 
+- Build a real compiler pipeline from scratch
+- Provide educational material for language design
+- Serve as a strong portfolio project demonstrating:
+    - Systems programming
+    - Compiler engineering
+    - Language implementation
 
+**Disclaimer**
 
+C- is an educational and experimental project.
+It is not intended for production use.
+
+**YouTube Series**
+
+This project is accompanied by a tutorial series covering:
+
+- Tokenization
+- Parsing
+- AST construction
+- Type checking
+- Code generation
+- Multi-target compilation
 
