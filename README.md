@@ -3,10 +3,10 @@
 C- is an experimental programming language and compiler project built to explore how modern programming languages are designed and implemented from scratch.
 The goal of this project is not to create a production-ready language, but to:
 
--Learn the full compiler pipeline in practice
--Build a real language implementation
--Teach others through a YouTube tutorial series
--Showcase compiler engineering and systems programming skills
+- Learn the full compiler pipeline in practice  
+- Build a real language implementation  
+- Teach others through a YouTube tutorial series  
+- Showcase compiler engineering and systems programming skills  
 
 This project demonstrates the complete workflow of language creation, from source code parsing to executable generation.
 
