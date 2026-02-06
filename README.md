@@ -28,6 +28,40 @@ fn void main() {
     println("Result: ", result);
 }
 ```
+Fully implemented in the Zig programming language:  
+
+```Zig
+
+fn convertCode(allocator:Allocator, code:string, compiler_settings:*const CompilerSettings) !string {
+
+    if (compiler_settings.show_input_code == true) {
+        debugPrint("Code: \n{s}\n", .{code});
+    }
+    //parse code
+    const token_list:ArrayList(Token) = try parse_code_mod.parseToTokens(allocator, code, compiler_settings);
+
+    defer debugging_mod.printTokens(token_list, compiler_settings);
+
+	//build ASTs
+    var ast_nodes:ArrayList(*ASTNode) = try ast_mod.buildASTs(allocator, token_list, code, compiler_settings);
+
+    defer debugging_mod.printASTNodes(allocator, ast_nodes, compiler_settings);
+
+    //analyse code
+    const type_list:TypeList = try static_analysis_mod.analyseCode(allocator, &ast_nodes, code, compiler_settings);
+
+    if (compiler_settings.show_symbol_table) {
+        type_list.printAllTypes();
+    }
+
+    //convert code
+    const converted_code:string = try convert_mod.convertCode(allocator, ast_nodes, code, compiler_settings, &type_list);
+
+    return converted_code;
+}
+
+```
+
 
 **Compiler Pipeline**
 
