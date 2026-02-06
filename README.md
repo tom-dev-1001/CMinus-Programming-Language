@@ -29,7 +29,27 @@ fn void main() {
 }
 ```
 
+Compiler Pipeline
+
+The project implements a complete compiler frontend and multiple backends:
+
+Tokenizer / Lexer
+
+Parses input code:
 <img width="730" height="438" alt="image" src="https://github.com/user-attachments/assets/45f64959-539f-4028-a22e-b80d827eb46b" />
+
+
+Parser → Abstract Syntax Tree (AST) generation
+
+Type resolution & type checking
+
+AST type tagging
+
+Intermediate code representation
+
+Multi-target code generation
+
+
 
 <img width="773" height="713" alt="image" src="https://github.com/user-attachments/assets/7b0dd25c-ca3d-475b-95c3-84d5e36607ea" />
 
