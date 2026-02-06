@@ -116,8 +116,7 @@ Target Status:
 
 **Detailed error messages:**
 
-When missing a semicolon:
-<img width="742" height="321" alt="image" src="https://github.com/user-attachments/assets/b23500d4-0065-4c9e-9f95-c43927c1bfe1" />
+When missing a semicolon:  
 <img width="742" height="321" alt="image" src="https://github.com/user-attachments/assets/b23500d4-0065-4c9e-9f95-c43927c1bfe1" />
 
 
