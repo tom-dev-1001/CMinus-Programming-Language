@@ -33,7 +33,7 @@ fn void main() {
 
 The project implements a complete compiler frontend and multiple backends:
 
-*Tokenizer / Lexer*
+- Tokenizer / Lexer
 
 Parses input code:  
 ```C
@@ -52,7 +52,9 @@ fn void main() {
 into Tokens:  
 <img width="773" height="713" alt="image" src="https://github.com/user-attachments/assets/7b0dd25c-ca3d-475b-95c3-84d5e36607ea" />
 
-Parser → Abstract Syntax Tree (AST) generation
+- Abstract Syntax Tree (AST) generation
+
+<img width="917" height="524" alt="image" src="https://github.com/user-attachments/assets/6e0d0f15-9cd2-4f67-8518-0fff1ebdf24c" />
 
 Type resolution & type checking
 
@@ -66,7 +68,7 @@ Multi-target code generation
 
 
 
-<img width="917" height="524" alt="image" src="https://github.com/user-attachments/assets/6e0d0f15-9cd2-4f67-8518-0fff1ebdf24c" />
+
 
 <img width="666" height="614" alt="image" src="https://github.com/user-attachments/assets/000883a5-1652-4bc8-9990-08337beae331" />
 
