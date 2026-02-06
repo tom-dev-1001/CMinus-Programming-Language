@@ -49,8 +49,8 @@ fn void main() {
     }
 }
 ```
-<img width="730" height="438" alt="image" src="https://github.com/user-attachments/assets/45f64959-539f-4028-a22e-b80d827eb46b" />
-
+into Tokens:
+<img width="773" height="713" alt="image" src="https://github.com/user-attachments/assets/7b0dd25c-ca3d-475b-95c3-84d5e36607ea" />
 
 Parser → Abstract Syntax Tree (AST) generation
 
@@ -64,7 +64,7 @@ Multi-target code generation
 
 
 
-<img width="773" height="713" alt="image" src="https://github.com/user-attachments/assets/7b0dd25c-ca3d-475b-95c3-84d5e36607ea" />
+
 
 <img width="917" height="524" alt="image" src="https://github.com/user-attachments/assets/6e0d0f15-9cd2-4f67-8518-0fff1ebdf24c" />
 
