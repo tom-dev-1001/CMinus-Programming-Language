@@ -1,4 +1,33 @@
-# CMinus-Programming-Language
+C- Language Project — Compiler & Language Design Experiment
+
+C- is an experimental programming language and compiler project built to explore how modern programming languages are designed and implemented from scratch.
+The goal of this project is not to create a production-ready language, but to:
+
+-Learn the full compiler pipeline in practice
+-Build a real language implementation
+-Teach others through a YouTube tutorial series
+-Showcase compiler engineering and systems programming skills
+
+This project demonstrates the complete workflow of language creation, from source code parsing to executable generation.
+
+Key Features
+Language Design
+
+- C-like syntax with modernized constructs
+- fn keyword for function definitions
+- Explicit, readable syntax
+- Designed for simplicity and clarity
+
+Example:
+```C
+fn int add(int a, int b) {
+    return a + b;
+}
+fn void main() {
+    int result = add(10, 10);
+    println("Result: ", result);
+}
+```
 
 <img width="730" height="438" alt="image" src="https://github.com/user-attachments/assets/45f64959-539f-4028-a22e-b80d827eb46b" />
 
