@@ -1,4 +1,4 @@
-***C- Language Project — Compiler & Language Design Experiment***
+**C- Language Project — Compiler & Language Design Experiment**
 
 C- is an experimental programming language and compiler project built to explore how modern programming languages are designed and implemented from scratch.
 The goal of this project is not to create a production-ready language, but to:
