@@ -49,7 +49,7 @@ fn void main() {
     }
 }
 ```
-into Tokens:
+into Tokens:  
 <img width="773" height="713" alt="image" src="https://github.com/user-attachments/assets/7b0dd25c-ca3d-475b-95c3-84d5e36607ea" />
 
 Parser → Abstract Syntax Tree (AST) generation
